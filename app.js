@@ -24,7 +24,7 @@ app.use('/users', usersRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
-  console.log('my goooood die');
+  console.log('my god u die');
   next(createError(404));
 });
 
